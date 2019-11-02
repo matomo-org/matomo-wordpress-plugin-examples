@@ -1,7 +1,7 @@
 <?php
 /*
- * Plugin Name: Matomo API Access
- * Description: Matomo API Access
+ * Plugin Name: Bootstrap Matomo Data Access
+ * Description: Bootstrap Matomo and fetch data through a Matomo API
  * Author: Matomo
  * Author URI: https://matomo.org
  * Version: 1.0.0

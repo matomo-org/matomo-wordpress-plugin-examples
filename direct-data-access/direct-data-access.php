@@ -1,7 +1,7 @@
 <?php
 /*
- * Plugin Name: Matomo Data Access
- * Description: Matomo Data Access
+ * Plugin Name: Direct Data Access
+ * Description: Fetch data from Matomo by directly accessing the database
  * Author: Matomo
  * Author URI: https://matomo.org
  * Version: 1.0.0
@@ -28,6 +28,7 @@ add_action( 'admin_menu', function () {
 		$idsite = $site->get_current_matomo_site_id();
 
 		global $wpdb;
+		// see Matomo database schema: https://developer.matomo.org/guides/persistence-and-the-mysql-backend
 		$sites = $wpdb->get_results('select * from ' . $goal_table_name . ' where idsite = '. (int) $idsite);
 		var_export($sites);
 	} );
