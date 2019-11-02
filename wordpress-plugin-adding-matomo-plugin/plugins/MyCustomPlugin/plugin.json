@@ -1,5 +1,6 @@
 {
   "name": "MyCustomPlugin",
   "description": "Defines a WordPress plugin",
+  "version": "0.1.0",
   "require": {}
 }
