@@ -1,0 +1,5 @@
+{
+  "name": "MyCustomPlugin",
+  "description": "Defines a WordPress plugin",
+  "require": {}
+}
