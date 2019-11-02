@@ -1,0 +1,5 @@
+{
+  "name": "MatomoPluginAddingWordpressSupport",
+  "description": "This plugin was initially developed as a Matomo plugin and now wants to add some additional support for WordPress",
+  "require": {}
+}
