@@ -15,7 +15,7 @@
 add_action('plugins_loaded', function () {
 	$is_matomo_plugin_activated = function_exists('add_matomo_plugin');
 	if ($is_matomo_plugin_activated) {
-		// you can add one mor multiple Matomo plugins here
+		// you can add one more multiple Matomo plugins here
 		add_matomo_plugin( __DIR__ . '/plugins/MyCustomPlugin', __FILE__ );
 	}
 });
