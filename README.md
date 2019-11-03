@@ -4,8 +4,9 @@ Examples on how to hook into the Matomo for WordPress plugin.
 
 ## Examples
 * `basic-integration`: A simple example on how to add a link to WordPress that links to the Matomo app
-* `data-access`: A simple plugin that adds a new menu item to the WordPress admin and prints information about a Matomo site fetched from a Matomo database table
-* `api-access`: Does the same as `data-access` but bootstraps Matomo to fetch the data through an API call
+* `direct-data-access`: A simple plugin that adds a new menu item to the WordPress admin and prints information about a Matomo site fetched from a Matomo database table
+* `bootstrap-matomo-data-access`: Does the same as `data-access` but bootstraps Matomo to fetch the data through an API call
+* `wordpress-plugin-adding-matomo-plugin`: A WordPress plugin adding a Matomo plugin
 * `MatomoPluginAddingWordpressSupport`: A simple Matomo plugin that adds custom logic for WordPress, eg it makes its Matomo API available through the WordPress REST API
 
 ## Developer docs
