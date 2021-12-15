@@ -35,6 +35,8 @@ if ( defined( 'ABSPATH' ) && function_exists( 'add_action' ) ) {
 		$is_matomo_activated = function_exists( 'matomo_add_plugin' );
 		if ( $is_matomo_activated ) {
 			// register the Matomo plugin
+            // __FILE__ should point to the main WordPress plugin file. If the code is not in your main WordPress PHP file,
+            // then you need to specify the path to the main WordPress PHP file.
 			matomo_add_plugin( __DIR__, __FILE__ );
 		}
 	} );
